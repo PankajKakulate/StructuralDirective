@@ -10,5 +10,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'StructuralDirective';
+ public nonveg  = true;
+
+ public Technology =["Angular","MogoDb","Java","React"];
+ public Batch="";
 }
